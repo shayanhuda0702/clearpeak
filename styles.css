@@ -636,8 +636,18 @@ p {
 }
 
 .metric-card--accent {
-  background: var(--color-forest);
+  background: linear-gradient(
+    135deg,
+    var(--color-forest),
+    var(--color-forest-dark)
+  );
   color: var(--color-white);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow-card);
+}
+
+.metric-card--accent .metric-card__text {
+  color: rgba(255, 255, 255, 0.96);
 }
 
 .metric-card--accent .metric-card__number {
@@ -2069,6 +2079,8 @@ p {
 
 .service-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   min-height: 370px;
   padding: 36px;
@@ -2121,10 +2133,22 @@ p {
 }
 
 .service-card__link {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 8px;
   margin-top: auto;
   padding-top: 28px;
   color: var(--color-forest);
   font-weight: 800;
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.service-card__link:hover {
+  color: var(--color-forest-dark);
+  transform: translateX(4px);
 }
 
 .industries {
@@ -2178,7 +2202,7 @@ p {
   box-shadow: 0 30px 80px rgba(20, 44, 37, 0.12);
 }
 
-.metric-card {
+.metric-card:not(.metric-card--accent) {
   background: rgba(255, 255, 255, 0.72);
   box-shadow: var(--shadow-card);
 }
