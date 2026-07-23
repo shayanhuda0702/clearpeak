@@ -41,5 +41,22 @@ Before launch:
 - Reduced-motion support retained
 
 
-## Safe Phase 2
-Rebuilt from the confirmed working polished version. The page remains functional before Formspree is connected. Replace `YOUR_FORM_ID` only when ready.
+## v1.1 visual polish release
+
+This release is deliberately visual-only. It preserves the stable HTML structure,
+JavaScript behavior, mobile menu, FAQ accordion, active navigation, and safe form setup.
+
+Visual improvements include:
+
+- Refined typography hierarchy and spacing
+- More premium neutral and green color balance
+- Layered shadows and glass-like surfaces
+- Elevated service, industry, process, and metric cards
+- Improved header and mobile navigation presentation
+- Refined hero composition and image framing
+- More intentional button and link interactions
+- Upgraded FAQ, contact form, testimonial, map, and CTA styling
+- Responsive mobile refinements
+- Reduced-motion support retained
+
+No Formspree ID is required to review this release.
