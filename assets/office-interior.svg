@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1ec"/>
+      <stop offset="1" stop-color="#dce6df"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d5c6ae"/>
+      <stop offset="1" stop-color="#aa9274"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8eef0" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#8fb3b2" stop-opacity=".75"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#wall)"/>
+  <rect y="970" width="1200" height="530" fill="url(#floor)"/>
+
+  <rect x="80" y="110" width="430" height="760" rx="12" fill="url(#glass)"/>
+  <rect x="535" y="110" width="585" height="760" rx="12" fill="url(#glass)"/>
+
+  <g stroke="#f7fbfa" stroke-width="18" opacity=".85">
+    <line x1="295" y1="110" x2="295" y2="870"/>
+    <line x1="750" y1="110" x2="750" y2="870"/>
+    <line x1="930" y1="110" x2="930" y2="870"/>
+  </g>
+
+  <rect x="100" y="890" width="1000" height="44" rx="22" fill="#aebcb5"/>
+
+  <rect x="180" y="940" width="500" height="58" rx="18" fill="#163f35"/>
+  <rect x="220" y="998" width="34" height="260" fill="#163f35"/>
+  <rect x="605" y="998" width="34" height="260" fill="#163f35"/>
+
+  <rect x="740" y="1010" width="280" height="38" rx="12" fill="#d9b67a"/>
+  <rect x="765" y="1048" width="24" height="210" fill="#806d53"/>
+  <rect x="970" y="1048" width="24" height="210" fill="#806d53"/>
+
+  <g fill="#163f35">
+    <rect x="120" y="880" width="90" height="42" rx="12"/>
+    <rect x="980" y="850" width="110" height="72" rx="18"/>
+  </g>
+
+  <g fill="#ffffff" opacity=".92">
+    <rect x="295" y="760" width="250" height="120" rx="18"/>
+    <rect x="330" y="700" width="180" height="70" rx="14"/>
+  </g>
+
+  <g>
+    <rect x="845" y="850" width="115" height="80" rx="20" fill="#f6f4ee"/>
+    <path d="M902 850c-14-84 8-138 66-190-8 84-28 144-66 190Z" fill="#477265"/>
+    <path d="M903 852c-58-38-87-88-88-151 64 39 92 92 88 151Z" fill="#6e9f88"/>
+  </g>
+
+  <circle cx="1020" cy="260" r="82" fill="#f7efe0" opacity=".7"/>
+  <circle cx="1020" cy="260" r="42" fill="#d9b67a" opacity=".9"/>
+</svg>
