@@ -1,62 +1,34 @@
-# ClearPeak BEM Clean Rebuild
+# ClearPeak Facility Services — Website V2
 
-This project is intentionally kept simple:
+This build integrates the finalized ClearPeak brand direction into the existing BEM website.
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/office-interior.svg`
+## Included
+- Exact mountain silhouette extracted from the supplied ClearPeak reference
+- Primary logo
+- Secondary horizontal logo
+- Mountain brandmark
+- Gold Signature Ridgeline
+- Updated navigation and footer branding
+- Unified Manrope typography
+- Updated phone number: (571) 404-2896
+- Medical-office claims replaced with ordinary professional-office positioning
 
-## BEM examples
+## Before launch
+1. Connect the quote form by replacing `YOUR_FORM_ID` in `index.html`.
+2. Confirm final operating hours and service area.
+3. Test all links on desktop and mobile.
+4. Upload the entire folder to GitHub Pages, preserving the `assets` folder.
 
-- Block: `.site-header`
-- Element: `.site-header__nav`
-- Modifier: `.site-header__nav--open`
+## Logo edge-padding fix
 
-- Block: `.faq`
-- Element: `.faq__item`
-- Modifier: `.faq__item--open`
-
-## Important
-
-Do not mix old class names into this project. The HTML, CSS, and JavaScript in this folder are designed to work together.
-
-Before launch:
-
-1. Replace the placeholder phone number.
-2. Confirm the final service area.
-3. Connect the quote form to a real form service.
-4. Replace placeholder claims with verified business information.
+- Added transparent internal padding to the horizontal header logo so the original mountain silhouette is no longer clipped on the left.
+- Added safe viewport padding to the standalone mountain brandmark and signature ridgeline.
+- The mountain path itself was not redrawn or reshaped.
 
 
-## Polish pass added
-
-- Visible keyboard focus states
-- Skip-to-content link
-- Active navigation highlighting
-- Refined card and image hover motion
-- Improved mobile menu scrolling
-- Animated service-area route treatment
-- Form loading feedback
-- Reduced-motion support retained
+## Exact mountain source correction
+The logo assets now embed a pixel-exact transparent extraction of the user-supplied silhouette image (`assets/mountain-source-reference.jpg`). No hand-drawn or approximated SVG path is used.
 
 
-## v1.1 visual polish release
-
-This release is deliberately visual-only. It preserves the stable HTML structure,
-JavaScript behavior, mobile menu, FAQ accordion, active navigation, and safe form setup.
-
-Visual improvements include:
-
-- Refined typography hierarchy and spacing
-- More premium neutral and green color balance
-- Layered shadows and glass-like surfaces
-- Elevated service, industry, process, and metric cards
-- Improved header and mobile navigation presentation
-- Refined hero composition and image framing
-- More intentional button and link interactions
-- Upgraded FAQ, contact form, testimonial, map, and CTA styling
-- Responsive mobile refinements
-- Reduced-motion support retained
-
-No Formspree ID is required to review this release.
+## Approved logo assets
+The website now uses direct transparent PNG crops from the user-approved logo board (`image.png`). No mountain shape is reconstructed or redrawn.

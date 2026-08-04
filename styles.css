@@ -9,6 +9,7 @@
   --color-gold: #d9b67a;
   --color-line: rgba(19, 35, 31, 0.12);
   --shadow-soft: 0 22px 60px rgba(20, 44, 37, 0.12);
+  --shadow-card: 0 18px 48px rgba(13, 47, 40, 0.16);
   --radius-large: 30px;
   --radius-medium: 20px;
   --radius-small: 12px;
@@ -89,7 +90,7 @@ h3 {
 
 h1,
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
 }
 
@@ -547,7 +548,7 @@ p {
 .stats__number,
 .stats__suffix {
   color: var(--color-forest);
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
   font-size: clamp(2.2rem, 5vw, 4rem);
 }
 
@@ -701,7 +702,7 @@ p {
 
 .testimonial__mark {
   color: var(--color-gold);
-  font-family: Georgia, serif;
+  font-family: "Manrope", sans-serif;
   font-size: 5rem;
   line-height: 0.7;
 }
@@ -709,7 +710,7 @@ p {
 .testimonial__quote {
   max-width: 900px;
   margin: 22px auto 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
   font-size: clamp(1.8rem, 4vw, 3.3rem);
   line-height: 1.22;
 }
@@ -2194,7 +2195,7 @@ p {
 
 .stats__number,
 .stats__suffix {
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .why-us__panel {
@@ -2243,7 +2244,7 @@ p {
   top: -84px;
   right: 34px;
   color: rgba(217, 182, 122, 0.12);
-  font-family: "Playfair Display", serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20rem;
   line-height: 1;
   pointer-events: none;
@@ -2547,4 +2548,97 @@ a.contact__detail:hover {
   .quote-form {
     border-radius: 24px;
   }
+}
+
+
+/* =========================================================
+   CLEARPEAK BRAND SYSTEM V2
+   Exact supplied Shenandoah ridgeline + unified Manrope system
+   ========================================================= */
+
+.brand {
+  flex: 0 0 auto;
+}
+
+.brand__logo {
+  width: clamp(215px, 19vw, 292px);
+  height: auto;
+}
+
+.brand__logo--footer {
+  width: min(340px, 100%);
+}
+
+.site-header__inner {
+  min-height: 94px;
+}
+
+.hero__ridgeline {
+  width: min(390px, 78%);
+  height: 58px;
+  margin-bottom: 22px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+h1,
+h2,
+h3,
+.testimonial__quote,
+.stats__number,
+.stats__suffix {
+  font-family: "Manrope", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  letter-spacing: -0.035em;
+}
+
+.site-footer__brand-column {
+  max-width: 390px;
+}
+
+@media (max-width: 980px) {
+  .brand__logo {
+    width: 220px;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header__inner {
+    min-height: 82px;
+  }
+
+  .brand__logo {
+    width: 184px;
+  }
+
+  .hero__ridgeline {
+    width: 82%;
+    height: 44px;
+    margin-bottom: 18px;
+  }
+}
+
+/* Approved logo board assets: exact raster crops, no reconstructed mountain paths */
+.brand__logo {
+  object-fit: contain;
+  display: block;
+}
+.brand__logo--footer {
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: var(--color-paper);
+}
+.hero__ridgeline {
+  object-fit: contain;
 }
