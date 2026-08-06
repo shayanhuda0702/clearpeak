@@ -2642,3 +2642,49 @@ h2 {
 .hero__ridgeline {
   object-fit: contain;
 }
+
+/* =========================================================
+   BRAND RELEASE 2.0 — FINAL VECTOR ASSETS
+   ========================================================= */
+.brand__logo {
+  display: block;
+  width: clamp(230px, 20vw, 320px);
+  max-height: 72px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.brand__logo--footer {
+  width: min(360px, 100%);
+  max-height: none;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: var(--color-paper);
+}
+
+.hero__ridgeline {
+  width: min(410px, 80%);
+  height: auto;
+  max-height: 76px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (max-width: 980px) {
+  .brand__logo {
+    width: 230px;
+    max-height: 64px;
+  }
+}
+
+@media (max-width: 700px) {
+  .brand__logo {
+    width: 190px;
+    max-height: 54px;
+  }
+
+  .hero__ridgeline {
+    width: 84%;
+    max-height: 58px;
+  }
+}

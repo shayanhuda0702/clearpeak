@@ -1,34 +1,13 @@
-# ClearPeak Facility Services — Website V2
-
-This build integrates the finalized ClearPeak brand direction into the existing BEM website.
+# ClearPeak Website — Brand Release 2.0
 
 ## Included
-- Exact mountain silhouette extracted from the supplied ClearPeak reference
-- Primary logo
-- Secondary horizontal logo
-- Mountain brandmark
-- Gold Signature Ridgeline
-- Updated navigation and footer branding
-- Unified Manrope typography
-- Updated phone number: (571) 404-2896
-- Medical-office claims replaced with ordinary professional-office positioning
+- Final vector primary, secondary, brandmark, and ridgeline logos
+- Cropped SVG viewBoxes for proper web sizing
+- Favicon, Apple touch icon, 192px and 512px app icons
+- Updated logo paths in the header, hero, and footer
+- Existing responsive layout, FAQ, animations, and form behavior retained
 
 ## Before launch
-1. Connect the quote form by replacing `YOUR_FORM_ID` in `index.html`.
-2. Confirm final operating hours and service area.
-3. Test all links on desktop and mobile.
-4. Upload the entire folder to GitHub Pages, preserving the `assets` folder.
-
-## Logo edge-padding fix
-
-- Added transparent internal padding to the horizontal header logo so the original mountain silhouette is no longer clipped on the left.
-- Added safe viewport padding to the standalone mountain brandmark and signature ridgeline.
-- The mountain path itself was not redrawn or reshaped.
-
-
-## Exact mountain source correction
-The logo assets now embed a pixel-exact transparent extraction of the user-supplied silhouette image (`assets/mountain-source-reference.jpg`). No hand-drawn or approximated SVG path is used.
-
-
-## Approved logo assets
-The website now uses direct transparent PNG crops from the user-approved logo board (`image.png`). No mountain shape is reconstructed or redrawn.
+1. Replace `YOUR_FORM_ID` in `index.html` with the Formspree form ID.
+2. Preview `index.html` locally.
+3. Upload the complete folder structure to GitHub Pages.
